@@ -1,12 +1,3 @@
-const cantidad = 5
-
-let i= 0
-let primoTemp= 1
-
-// while (i < cantidad ){
-
-// }
-// 
 
 const esPrimo = primo => {
     
@@ -25,4 +16,15 @@ const esPrimo = primo => {
     return false 
 }
 
-console.log(esPrimo(100))
+const cantidad = 15
+
+let i= 0
+let primoTemp= 1
+
+while (i < cantidad ){
+    if (esPrimo(primoTemp)){
+        console.log(i+1,"->",primoTemp);
+        i++
+    }
+    primoTemp++
+}
