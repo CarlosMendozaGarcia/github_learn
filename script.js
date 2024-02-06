@@ -28,3 +28,5 @@ while (i < cantidad ){
     }
     primoTemp++
 }
+
+console.log("consola de la master branch")
