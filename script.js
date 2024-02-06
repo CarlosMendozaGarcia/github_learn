@@ -22,7 +22,11 @@ let i= 0
 let primoTemp= 1
 
 while (i < cantidad ){
+<<<<<<< HEAD
     if (esPrimo(primoTemp) ||  false ){
+=======
+    if (esPrimo(primoTemp) && true  && i < cantidad){
+>>>>>>> programadorA
         console.log(i+1,"->",primoTemp);
         i++
     }
