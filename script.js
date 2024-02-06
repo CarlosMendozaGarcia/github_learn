@@ -16,6 +16,7 @@ const esPrimo = primo => {
     return false 
 }
 
+console.log("consola desde programador C")
 const cantidad = 15
 
 let i= 0
